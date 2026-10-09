@@ -1,0 +1,20 @@
+MNIST 28x28 image
+        |
+        v
+Flatten -> 784 pixels
+        |
+        v
+Linear 784 -> 128
+        |
+       ReLU
+        |
+        v
+Linear 128 -> 64
+        |
+       ReLU
+        |
+        v
+Linear 64 -> 10
+        |
+        v
+Highest score = predicted digit (0-9)
